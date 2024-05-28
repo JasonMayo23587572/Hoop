@@ -1,0 +1,258 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.ProfileOptionsContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.ProfileOptionsIcon {
+    width: 20px;
+    padding-right: 10px;
+}
+
+.ProfileOptionsButton {
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 10px;
+    margin-right: 10px;;
+    border: none;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #31363F;
+    text-decoration: none;
+}
+
+.ProfileOptionsButtonText {
+    margin: 0px;
+    font-family: "Bricolage Grotesque", sans-serif;
+    color: rgba(255, 255, 255, 0.706);
+    text-decoration: none;
+}
+
+.FaviotesContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.PlayerContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.PageTitleContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.PageTitle {
+    font-family: "Bricolage Grotesque", sans-serif;
+    color: white;
+    font-size: 36px;
+    font-weight: 700;
+    margin: 0px;
+}
+
+.PageSubtitle {
+    font-family: "Bricolage Grotesque", sans-serif;
+    color: rgba(255, 255, 255, 0.547);
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0px;
+}
+
+.HeroContainer {
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    height: 800px;
+    border-radius: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 0px;
+}
+
+.BackgroundImage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-size: cover;
+    border-radius: 20px;
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1.0) 50%, transparent 100%);
+}
+
+.HeroContent {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    padding: 20px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    position: relative;
+    z-index: 1;
+}
+
+.Rating {
+    font-family: "Bricolage Grotesque", sans-serif;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0px;
+}
+
+.Title {
+    font-family: "Bricolage Grotesque", sans-serif;
+    color: white;
+    font-size: 36px;
+    font-weight: 700;
+    margin: 0px;
+}
+
+.CategoryChipsContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.Chip {
+    font-family: "Bricolage Grotesque", sans-serif;
+    color: white;
+    font-size: 10px;
+    font-weight: 400;
+    background-color: #222831;
+    border-radius: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border: 2px solid #26C897;
+    margin-right: 5px;
+}
+
+.ChipText {
+    margin: 0px;
+}
+
+.Description {
+    font-family: "Bricolage Grotesque", sans-serif;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 20px;
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.PlayButton {
+    outline: none;
+    border: none;
+    background-color: #26C897;
+    color: #222831;
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 200px;
+}
+
+.PlayButton:hover {
+    cursor: pointer;
+}
+
+.RecommendedContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+    margin-bottom: 0px;
+}
+
+.SectionTitle {
+    font-family: "Bricolage Grotesque", sans-serif;
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+
+.MovieList {
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding-bottom: 20px;
+}
+
+.MovieCard {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: #31363F;
+    box-shadow: 10px 2px 2px #00000025;
+    text-decoration: none;
+}
+
+.MovieImage {
+    width: 200px;
+    border-radius: 10px;
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1.0) 50%, transparent 100%);
+}
+
+.MovieDetailsContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-top: -20px;
+    padding-bottom: 20px;
+}
+
+.MovieTitle {
+    font-family: "Bricolage Grotesque", sans-serif;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0px;
+    margin-bottom: 5px;
+}
+
+.MovieCardRating {
+    color: rgba(255, 255, 255, 0.579);
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    margin: 0px;
+}

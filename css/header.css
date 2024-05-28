@@ -1,0 +1,37 @@
+body {
+    background-color: #222831;
+    margin: 0;
+}
+
+.HeaderContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #222831;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.LogoContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.NavBtnContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 30%;
+    justify-content: space-between;
+}
+
+.NavLink {
+    color: #eeeeee;
+    text-decoration: none;
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-weight: 400;
+}
